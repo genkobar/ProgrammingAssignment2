@@ -1,4 +1,4 @@
-## These two functions offer a framework for a matrix that can store the
+## These two functions offer a framework for a matrix object that can store the
 ## value of its inverse, so that it doesn’t have to be calculated over and over.
 ## The first function, makeCacheMatrix() provides a scaffolding, while the
 ## second function, cacheSolve(), takes such a scaffolding as an input and
