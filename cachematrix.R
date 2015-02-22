@@ -1,10 +1,9 @@
 ## These two functions offer a framework for a matrix object that can store the
 ## value of its inverse, so that it doesn’t have to be calculated over and over.
-## The first function, makeCacheMatrix() provides a scaffolding, while the
-## second function, cacheSolve(), takes such a scaffolding as an input and
-## either calculates its inverse, stores it in the input and then returns the
-## value or, if it has previously been calculated, simply returns the value
-## of the inverse from the input.
+## makeCacheMatrix() provides a scaffolding, while cacheSolve() takes such a 
+## scaffolding as an input and either calculates its inverse, stores it in the
+## input object and then returns the value or, if it has previously been calculated, 
+## simply returns the value of the inverse stored in the input object.
 
 ## makeCacheMatrix() takes a matrix as an input and returns a matrix
 ## object that can store the value of the inverse in a cached variable.
